@@ -103,12 +103,16 @@ function getDepartureTimes () {
 }
 
 function departureTimesSuccess (data) {
-  if (data[0].Actual) {
-    console.log(data[0].DepartureText.replace('Min', 'minutes'))
+  if (data[0]) {
+    if (data[0].Actual) {
+      console.log(data[0].DepartureText.replace('Min', 'minutes'))
+    } else {
+      Moment.relativeTimeThreshold('m', 60)
+      var duration = new Moment(data[0].DepartureTime).fromNow()
+      console.log(duration.substring(3, duration.length))
+    }
   } else {
-    Moment.relativeTimeThreshold('m', 60)
-    var duration = new Moment(data[0].DepartureTime).fromNow()
-    console.log(duration.substring(3, duration.length))
+    console.log('The last bus for the day has already left.')
   }
 }
 
