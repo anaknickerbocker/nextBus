@@ -41,11 +41,11 @@ $ node nextBus.js "146 - Ltd Stop -  Vernon Av - 50th St - Mpls" "46th St  and N
 ```
 
 ```
-$ node nextBus.js “Express -Target -Hwy 252 and 73rd Av P&R -Mpls” “Target North Campus Building F” “south”
+$ node nextBus.js "Express -Target -Hwy 252 and 73rd Av P&R -Mpls" "Target North Campus Building F" "south"
 ```
 
 ```
-$ node nextBus.js “METRO Blue Line” “Target Field Station Platform 1” “south”
+$ node nextBus.js "METRO Blue Line" "Target Field Station Platform 1" "south"
 ```
 
 ```
