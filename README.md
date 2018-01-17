@@ -4,7 +4,6 @@
 This program will tell you how long until your next bus arrives, using the [Metro Transit NexTrip API](http://svc.metrotransit.org/).
 
 ## Setup
------
 1. You will need to download and install [NodeJS](https://nodejs.org/en/download/).
 2. Clone this repository to your desktop.
 3. Open your terminal/command prompt and point your working directory to the root directory of the repository. For example:
@@ -18,7 +17,6 @@ npm install
 ```
 
 ## Usage
------
 After cloning this repository, go to its root directory and run `npm install` to install its dependencies.
 
 Once the dependencies are installed, you are ready to use the program.
@@ -38,7 +36,6 @@ After running this commnd in the terminal, you will receive a response of `x min
 If there is no output, the last bus for the day has already left.
 
 ## Examples
------
 ```
 $ node nextBus.js "146 - Ltd Stop -  Vernon Av - 50th St - Mpls" "46th St  and Nicollet Ave" "north"
 ```
@@ -55,5 +52,4 @@ $ node nextBus.js “METRO Blue Line” “Target Field Station Platform 1” �
 $ node nextBus.js "5 - Brklyn Center - Fremont - 26th Av - Chicago - MOA" "7th St  and Olson Memorial Hwy" "north"
 ```
 ## Author
------
 - Ana Knickerbocker (https://github.com/anaknickerbocker)
