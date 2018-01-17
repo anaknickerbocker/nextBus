@@ -1,5 +1,4 @@
 # nextBus
-
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 This program will tell you how long until your next bus arrives, using the [Metro Transit NexTrip API](http://svc.metrotransit.org/).
