@@ -1,0 +1,16 @@
+{
+  "name": "nextbus",
+  "version": "1.0.0",
+  "description": "API Consumption Case Study",
+  "main": "nextBus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anaknickerbocker",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {}
+}
